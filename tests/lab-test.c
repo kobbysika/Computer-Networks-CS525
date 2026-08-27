@@ -27,8 +27,20 @@ void test_get_greeting(void) {
   free(greeting);
 }
 
+void test_multiply(void) {
+  TEST_ASSERT_EQUAL_INT(12, multiply(3, 4));
+  TEST_ASSERT_EQUAL_INT(-10, multiply(-2, 5));
+  TEST_ASSERT_EQUAL_INT(0, multiply(0, 7));
+}
+
+void test_incorrect_sum(void) {
+  TEST_ASSERT_EQUAL_INT(5, incorrect_sum(2, 3));
+}
+
 int main(void) {
   UNITY_BEGIN();
   RUN_TEST(test_get_greeting);
+  RUN_TEST(test_multiply);
+  RUN_TEST(test_incorrect_sum);
   return UNITY_END();
 }
