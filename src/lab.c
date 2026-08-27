@@ -32,3 +32,13 @@ char *get_greeting(const char *restrict name)
 
   return greeting;
 }
+
+int multiply(int first, int second)
+{
+    return first * second;
+}
+
+int incorrect_sum(int first, int second)
+{
+    return first + second + 1;
+}
