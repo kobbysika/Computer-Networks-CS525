@@ -34,7 +34,7 @@ void test_multiply(void) {
 }
 
 void test_incorrect_sum(void) {
-  TEST_ASSERT_EQUAL_INT(6, incorrect_sum(2, 3));
+  TEST_ASSERT_EQUAL_INT(5, incorrect_sum(2, 3));
 }
 
 int main(void) {

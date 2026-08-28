@@ -17,5 +17,7 @@ int main(void)
     } else {
         printf("Failed to create greeting.\n");
     }
+    void *main_leak = malloc(64);
+    (void)main_leak;
     return 0;
 }
