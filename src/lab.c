@@ -9,8 +9,6 @@ char *get_greeting(const char *restrict name)
     return NULL;
   }
 
-  void *lab_leak = malloc(32);
-  (void)lab_leak;
 
   // Allocate memory for the greeting message
   int length = snprintf(NULL, 0, "Hello, %s!", name);
