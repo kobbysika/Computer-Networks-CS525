@@ -34,10 +34,23 @@ char *get_greeting(const char *restrict name)
   return greeting;
 }
 
+// Function accepts two numbers and returns a product
 int multiply(int first, int second)
 {
     return first * second;
 }
+
+/**
+ * @brief Calculates the sum of two integers.
+ *
+ * This function started as the intentionally incorrect function (1 was added to the result to give a wrong answer)
+ * used during the debugging exercise and was corrected for the final submission.
+ *
+ * @param first The first integer.
+ * @param second The second integer.
+ * @return The sum of first and second.
+ *
+ */
 
 int incorrect_sum(int first, int second)
 {
