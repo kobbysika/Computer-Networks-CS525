@@ -6,13 +6,8 @@
 #define main main_exclude
 #endif
 
-/**
- * @brief Documents AI assistance used during Task 4.
- *
- * @note AI usage: ChatGPT assisted with understanding the memory leaks required by Task 4.
- * 
- */
-
+// ChatGPT assisted with understanding the memory leaks required by Task 4.
+ 
 int main(void)
 {
     char *greeting = get_greeting("World");

@@ -1,7 +1,8 @@
 #ifndef LAB_H
 #define LAB_H
 
-/** * @brief Returns a greeting message.
+/** 
+ * @brief Returns a greeting message.
  *
  * This function returns a string that contains a greeting message.
  * The string is allocated with malloc and should be freed by the caller.
