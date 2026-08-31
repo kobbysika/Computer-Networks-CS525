@@ -1,6 +1,6 @@
 # Submission Report
 
-- Submission generated at 08/31/2026 at 09:59:20
+- Submission generated at 08/31/2026 at 10:09:13
 
 - Machine info: Linux onyx.boisestate.edu 5.14.0-687.12.1.el9_8.x86_64 #1 SMP PREEMPT_DYNAMIC Mon May 25 06:29:57 EDT 2026 x86_64 x86_64 x86_64 GNU/Linux
 
@@ -262,11 +262,15 @@ char* get_greeting(const char* restrict name);
 int multiply(int first, int second);
 
 /**
- * @brief Returns an intentionally incorrect sum of two integers.
+ * @brief Calculates the sum of two integers.
+ *
+ * This function started as the intentionally incorrect function (1 was added to the result to give a wrong answer)
+ * used during the debugging exercise and was corrected for the final submission.
  *
  * @param first The first integer.
  * @param second The second integer.
- * @return An intentionally incorrect sum.
+ * @return The sum of first and second.
+ *
  */
 int incorrect_sum(int first, int second);
 
@@ -357,14 +361,14 @@ int main(void) {
 ```
 
 ## Scripts Files
-Report generated on 08/31/2026 at 09:59:22
+Report generated on 08/31/2026 at 10:09:16
 
 
 ---
 
 ## End of Report
 
-SHA-256 Hash of the report: 6665854597c2ff4084c9f48258a3064df27411ebe1658ff461596b2ae7033e33
+SHA-256 Hash of the report: e518f103358464b7f8046040a4f8e5091b4f05953986896babf769d1aab4830f
 
 Do not edit the generated report. Any changes will be reported as academic dishonesty
 
