@@ -1,4 +1,4 @@
-# Project X
+# Project 0
 
 # CS525 Computer Networks Lab
 # P0 - Compile, Test, Debug

@@ -7,6 +7,9 @@
  * The string is allocated with malloc and should be freed by the caller.
  * @param name The name to include in the greeting.
  * @return A greeting string.
+ * 
+ * @note AI usage: ChatGPT assisted with understanding the memory leaks required by Task 4.
+ * 
  */
 char* get_greeting(const char* restrict name);
 
